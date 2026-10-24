@@ -25,7 +25,7 @@
 <!-- ============================ ENGLISH ============================ -->
 <section id="en" lang="en">
 <h1>WalkerText — Privacy Policy</h1>
-<p class="data">Last updated: 6 October 2026</p>
+<p class="data">Last updated: 24 October 2026</p>
 
 <p>WalkerText adds subtitles to your videos. The speech recognition, the editing and the export all
 happen <strong>on your phone</strong>, using an AI model downloaded once and kept on the device. This
@@ -45,15 +45,20 @@ and is deleted when you uninstall WalkerText.</p>
 <ul>
   <li><strong>To download the AI model</strong> (about 670 MB, the first time) from Hugging Face. It is a
     plain file download: nothing of yours is sent.</li>
+  <li><strong>To download translation language packs</strong>, only if you translate subtitles — see
+    «Subtitle translation».</li>
   <li><strong>To show ads</strong>, through Google AdMob — see «Advertising».</li>
   <li><strong>To report crashes</strong>, through Sentry — see «Crash reports».</li>
-  <li><strong>For export credits</strong>, when they are active — see «Export credits».</li>
+  <li><strong>For export credits</strong> and to check that the app is genuine — see «Export credits».</li>
+  <li><strong>To check for updates</strong>: the app asks our server for the minimum supported version and,
+    if needed, offers the update through Google Play.</li>
 </ul>
 <p>Outside these cases the app works without a connection.</p>
 
 <h2>Advertising</h2>
 <p>WalkerText shows ads served by <strong>Google AdMob</strong>: a banner at the bottom of the screens, a
-box while a transcription is running and, when export credits are active, optional rewarded videos. To
+box while a transcription is running and rewarded videos, which you can choose to watch to earn export
+credits. To
 serve them, Google receives technical data about the device: advertising ID, IP address, device type and
 information about your interaction with the ads.</p>
 <p>Google <strong>does not</strong> receive your videos, your audio or your subtitles.</p>
@@ -64,7 +69,16 @@ based on a profile.</p>
 <p>How Google handles this data: <a href="https://policies.google.com/technologies/partner-sites">Google
 Privacy &amp; Terms</a> and the <a href="https://support.google.com/admob/answer/9012903">list of
 advertising partners</a>.</p>
-<p>During the closed test the app shows only Google's test ads.</p>
+<h2>Subtitle translation</h2>
+<p>Subtitles are translated <strong>on your phone</strong> with Google ML Kit (Google Translate). The
+language of the video is also recognised on the phone. Your text is <strong>never</strong> sent to translate
+it.</p>
+<p>The first time you translate into or from a language, the app downloads its language pack (about 42 MB)
+from Google's servers; you can delete the packs in <em>Settings → Translation languages</em>. As with any
+download, Google receives technical data such as the IP address. Google states that ML Kit may also send
+it anonymous information about the performance and use of these functions. See the
+<a href="https://developers.google.com/ml-kit/terms">ML Kit terms</a> and
+<a href="https://policies.google.com/privacy">Google's privacy policy</a>.</p>
 
 <h2>Crash reports</h2>
 <p>When the app crashes or hits a serious error, it sends a technical report to <strong>Sentry</strong>
@@ -79,16 +93,21 @@ and your IP address is not stored. Reports are used only to fix bugs, are not sh
 are deleted automatically after 90 days.</p>
 
 <h2>Export credits</h2>
-<p>When credits are active (they are <strong>not</strong> during the closed test), some exports use
-credits, which you can earn by watching a rewarded ad (as a rough guide, one ad for one export with
-subtitles). To keep the balance safe, the app talks to our server (Cloudflare Workers, by Cloudflare,
-Inc.), which stores only:</p>
+<p>Every export (video, SRT subtitles or TXT text) uses 1 credit. You earn credits by watching a
+rewarded ad, and you receive 1 credit the first time you open the app. To keep the balance safe, the app
+talks to our server (Cloudflare Workers, by Cloudflare, Inc.), which stores only:</p>
 <ul>
   <li>a <strong>random identifier</strong> created by the app at the first launch (it is not your
     advertising ID or any hardware identifier, and it is not linked to your name or e-mail);</li>
   <li>the credits earned, spent and, if one day sold, bought, with their date;</li>
-  <li>the ID of each rewarded ad, which Google sends to confirm it was watched.</li>
+  <li>the ID of each rewarded ad, which Google sends to confirm it was watched;</li>
+  <li>whether the app on that phone has passed the <strong>Google Play Integrity</strong> check, and when.</li>
 </ul>
+<p>Credits from ads and the welcome credit are given only to the genuine app installed from Google Play
+on a certified device. To check this, the app asks Google Play Integrity for a verdict: Google receives
+information about the app and the device (such as the app version and whether the device is certified)
+and returns a signed result that our server verifies. Our server keeps only the outcome, not the
+details.</p>
 <p>Nothing about the content of your videos is sent. If you uninstall the app the identifier is lost and
 the balance can no longer be linked to you.</p>
 
@@ -134,7 +153,7 @@ the app.</p>
 <!-- ============================ ITALIANO ============================ -->
 <section id="it" lang="it">
 <h1>WalkerText — Informativa sulla privacy</h1>
-<p class="data">Ultimo aggiornamento: 6 ottobre 2026</p>
+<p class="data">Ultimo aggiornamento: 24 ottobre 2026</p>
 
 <p>WalkerText aggiunge i sottotitoli ai tuoi video. Il riconoscimento del parlato, la modifica e
 l'esportazione avvengono <strong>sul tuo telefono</strong>, con un modello di intelligenza artificiale
@@ -155,16 +174,20 @@ cancella quando disinstalli WalkerText.</p>
 <ul>
   <li><strong>Per scaricare il modello</strong> (circa 670 MB, la prima volta) da Hugging Face. È il
     semplice download di un file: non si invia niente di tuo.</li>
+  <li><strong>Per scaricare i pacchetti di lingua della traduzione</strong>, solo se traduci i
+    sottotitoli: vedi «Traduzione dei sottotitoli».</li>
   <li><strong>Per mostrare gli annunci</strong>, con Google AdMob: vedi «Annunci».</li>
   <li><strong>Per segnalare i crash</strong>, con Sentry: vedi «Segnalazioni dei crash».</li>
-  <li><strong>Per i crediti di esportazione</strong>, quando sono attivi: vedi «Crediti».</li>
+  <li><strong>Per i crediti di esportazione</strong> e per verificare che l'app sia autentica: vedi «Crediti».</li>
+  <li><strong>Per controllare gli aggiornamenti</strong>: l'app chiede al nostro server la versione minima
+    supportata e, se serve, propone l'aggiornamento tramite Google Play.</li>
 </ul>
 <p>Fuori da questi casi l'app funziona senza connessione.</p>
 
 <h2>Annunci</h2>
 <p>WalkerText mostra annunci forniti da <strong>Google AdMob</strong>: un banner in fondo alle
-schermate, un riquadro durante la trascrizione e, quando i crediti sono attivi, video con premio
-facoltativi. Per mostrarli, Google riceve dati tecnici sul dispositivo: identificativo pubblicitario,
+schermate, un riquadro durante la trascrizione e video con premio, che puoi scegliere di guardare per
+ottenere crediti di esportazione. Per mostrarli, Google riceve dati tecnici sul dispositivo: identificativo pubblicitario,
 indirizzo IP, tipo di dispositivo e informazioni sulla tua interazione con gli annunci.</p>
 <p>Google <strong>non</strong> riceve i tuoi video, il tuo audio né i tuoi sottotitoli.</p>
 <p>Nello Spazio economico europeo, nel Regno Unito e in Svizzera, al primo avvio compare un modulo di
@@ -174,7 +197,16 @@ comunque annunci, ma non basati su un profilo.</p>
 <p>Come Google tratta questi dati: <a href="https://policies.google.com/technologies/partner-sites?hl=it">Privacy
 e termini di Google</a> e l'<a href="https://support.google.com/admob/answer/9012903?hl=it">elenco dei
 partner pubblicitari</a>.</p>
-<p>Durante il test chiuso l'app mostra solo gli annunci di prova di Google.</p>
+<h2>Traduzione dei sottotitoli</h2>
+<p>I sottotitoli si traducono <strong>sul telefono</strong> con Google ML Kit (Google Translate). Anche la
+lingua del video viene riconosciuta sul telefono. Il tuo testo <strong>non</strong> viene mai inviato per
+tradurlo.</p>
+<p>La prima volta che traduci da o verso una lingua, l'app scarica il suo pacchetto (circa 42 MB) dai
+server di Google; puoi eliminare i pacchetti in <em>Impostazioni → Lingue della traduzione</em>. Come per
+ogni download, Google riceve dati tecnici come l'indirizzo IP. Google dichiara che ML Kit può inoltre
+inviargli informazioni anonime sulle prestazioni e sull'uso di queste funzioni. Vedi i
+<a href="https://developers.google.com/ml-kit/terms">termini di ML Kit</a> e
+l'<a href="https://policies.google.com/privacy?hl=it">informativa di Google</a>.</p>
 
 <h2>Segnalazioni dei crash</h2>
 <p>Quando l'app si chiude per un errore o incontra un errore grave, invia un rapporto tecnico a
@@ -189,16 +221,22 @@ e il tuo indirizzo IP non viene conservato. I rapporti servono solo a correggere
 condivisi con nessun altro e si cancellano da soli dopo 90 giorni.</p>
 
 <h2>Crediti</h2>
-<p>Quando i crediti sono attivi (durante il test chiuso <strong>non</strong> lo sono), alcune
-esportazioni usano crediti, che puoi guadagnare guardando un annuncio con premio (indicativamente, un
-annuncio per un'esportazione con i sottotitoli). Per tenere il saldo al sicuro l'app parla con il nostro
-server (Cloudflare Workers, di Cloudflare, Inc.), che conserva soltanto:</p>
+<p>Ogni esportazione (video, sottotitoli SRT o testo TXT) usa 1 credito. I crediti si ottengono
+guardando un annuncio con premio, e al primo avvio ricevi 1 credito in omaggio. Per tenere il saldo al
+sicuro l'app parla con il nostro server (Cloudflare Workers, di Cloudflare, Inc.), che conserva
+soltanto:</p>
 <ul>
   <li>un <strong>identificativo casuale</strong> creato dall'app al primo avvio (non è l'identificativo
     pubblicitario né un identificativo del telefono, e non è legato al tuo nome o alla tua e-mail);</li>
   <li>i crediti guadagnati, spesi e, se un giorno si venderanno, comprati, con la data;</li>
-  <li>il codice di ogni annuncio con premio, che Google invia per confermare che è stato guardato.</li>
+  <li>il codice di ogni annuncio con premio, che Google invia per confermare che è stato guardato;</li>
+  <li>se l'app su quel telefono ha superato il controllo di <strong>Google Play Integrity</strong>, e quando.</li>
 </ul>
+<p>I crediti degli annunci e quello di benvenuto vanno solo all'app autentica, installata da Google Play
+su un dispositivo certificato. Per verificarlo l'app chiede un esito a Google Play Integrity: Google riceve
+informazioni sull'app e sul dispositivo (come la versione dell'app e se il dispositivo è certificato) e
+restituisce un risultato firmato che il nostro server controlla. Il server conserva solo l'esito, non i
+dettagli.</p>
 <p>Non si invia nulla del contenuto dei tuoi video. Se disinstalli l'app l'identificativo si perde e il
 saldo non è più collegabile a te.</p>
 
